@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #61dafb;
+    font-size: 32px;
+}
+
+.formDiv {
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+}
+
+.icon {
+    color: white;
+    margin: auto 5px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.searchInput{
+    margin: 0px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.searchButton{
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #61dafb;
+    color: #282c34;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.searchButton:hover {
+    color: white;
+}
+
+.errorMessage{
+    position: absolute;
+    color: salmon;
+    margin-top: 30px;
+}
+
+.userList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.graphic {
+    margin: 40px 0;
+}
