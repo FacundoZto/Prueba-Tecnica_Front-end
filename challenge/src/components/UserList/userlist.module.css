@@ -1,0 +1,35 @@
+.userDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #282c34;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    filter: drop-shadow(2px 4px 2px #000000);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    cursor: pointer;
+    width: 380px;
+}
+
+.userDiv:hover {
+    box-shadow: inset 400px 0 0 0 #00bdff;
+}
+
+.icon {
+    color: wheat;
+}
+
+.nameId {
+    color: wheat;
+    margin-left: 10px;
+}
+
+.info {
+    color: whitesmoke;
+    margin-left: 4px;
+}
+
+.link {
+    text-decoration: none;
+}
